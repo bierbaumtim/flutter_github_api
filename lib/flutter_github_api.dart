@@ -4,11 +4,11 @@ import 'dart:convert';
 
 import 'package:dio/adapter.dart';
 import 'package:dio/dio.dart';
-import 'package:github/server.dart';
+import 'package:github/github.dart';
 
 import 'entity/index.dart';
 
-export 'package:github/server.dart';
+export 'package:github/github.dart';
 
 final baseURL = 'https://api.github.com/';
 final user = 'user';

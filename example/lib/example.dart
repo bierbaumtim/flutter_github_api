@@ -1,7 +1,7 @@
 import 'package:flutter_github_api/flutter_github_api.dart';
 
 class Example {
-  static final github = createGitHubClient();
+  static final github = GitHub();
   static final slug = RepositorySlug('houko', 'flutter_github_api');
 
   static Stream<Issue> listIssuesByRepository() {
